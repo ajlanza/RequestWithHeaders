@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Request with headers</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Please enter the GitHub user handle below that you would like to search for.</h1>
+          
+        <form class="handleForm">
+          <label for="handle">User Handle:</label>
+          <input type="text" id="handle" name="handle"> 
+          <input type="submit" value="Search">
+        </form>
+        <p class="results hidden" id="results">
+          <!-- This is where we will display our results.-->
+        </p>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
